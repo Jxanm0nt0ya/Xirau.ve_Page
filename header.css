@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #F90716, transparent);
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+
+
+
+.header_logo {
+    display: flex;
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    width: 320px;
+
+}
+
+.ul_nav {
+    list-style: none;
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.ul_nav li>a {
+    font-family: var(--font);
+    text-decoration: none;
+    color: rgb(245, 243, 243);
+}
+
+.header-menu {
+    display: none;
+}
+
+
+
+.cont-menu {
+    display: none;
+}

@@ -1,0 +1,39 @@
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-description {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.section-title {
+
+    margin-right: 15px;
+}
+
+.section-title h1.title {
+    font-size: 64px;
+
+    width: 475px;
+
+}
+
+.section-title h1.title span {
+    color: white;
+}
+
+.section-paragraph {
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.acerca-logo {
+    margin-left: 600px;
+    flex-direction: column;
+    justify-content: end;
+}
